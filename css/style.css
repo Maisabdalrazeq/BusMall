@@ -4,28 +4,70 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
 
 body {
-  background-color: #03A688;
+  background-color: #8cc7b8;
   text-align: center;
   font-family: 'Raleway', sans-serif;
   line-height: 20px;
-  letter-spacing: 0.3em;
+
+}
+
+@keyframes example {
+  from {background-color:#c3f5eb;;}
+  to {background-color: yellow;}
 }
 header{
-  background-color: rgba(46, 206, 242, 0.6);
   margin-top: 5px;
   margin-left: 200px;
   margin-right: 200px;
   margin-bottom: 10px;
+  background-color: #c3f5eb;;
+  animation-name: example;
+  animation-duration: 4s;
+
 }
-h1{
+h1 {
  font-family: 'Fascinate', cursive;
- color: #F2CB07;
+ color:rgb(252, 173, 3);
  font-size: 44px;
  padding: 20px;
+ text-shadow: 2px 2px 5px red;
+}
+h2 {
+  font-family: 'Raleway', sans-serif;
+  color: rgb(252, 173, 3);
+  font-size: 30px;
+  padding: 20px;
+  text-shadow: 2px 2px 5px red;
+
 }
 
-#finalResult{
- margin: 10%;
-  margin-top: 4%;
-  margin-bottom: 4%;
+ ul{
+ /* background-color: #F2CB07; */
+ background-color: #c3f5eb;
+  margin: 5%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  display: inline-block;
+  font-weight: bold;
 }
+
+img{
+  text-align: center;
+  width:200px;
+height: 200px;
+border: 2px double greenyellow;
+margin:2%;
+}
+
+
+.list{
+  font-family: 'Raleway', sans-serif;
+  color: rgb(252, 173, 3);
+  font-size: 30px;
+  padding: 20px;
+
+}
+
+
+
+
